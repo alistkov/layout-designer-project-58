@@ -78,8 +78,8 @@ h3 {
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 0;
-  left: 0;
+  width: 100%;
+  height: 100%;
   background: url('../images/background.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -118,21 +118,21 @@ h3 {
   background: var(--color-light);
 }
 
-.header__image {
+.header-image {
   position: absolute;
   top: 25px;
   right: -270px;
 }
 
-.header__top {
+.header-top {
   height: 525px;
 }
 
-.header__title {
+.header-title {
   position: relative;
   z-index: 1;
 }
 
-.header__button {
+.header-button {
   margin-top: 40px;
 }
