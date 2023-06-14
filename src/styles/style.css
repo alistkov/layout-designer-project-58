@@ -49,6 +49,7 @@ h2,
 h3 {
   line-height: 1.2em;
   font-family: Neucha, cursive;
+  margin-top: 0;
 }
 
 h1 {
@@ -63,9 +64,75 @@ h3 {
   font-size: 34px;
 }
 
+.orange {
+  color: var(--main-color);
+}
+
+.section-bg {
+  position: relative;
+}
+
+.section-bg::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url('../images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+}
+
 .section-content {
   width: 100%;
   max-width: 1150px;
-  padding: 0 20px;
+  padding: 100px 20px;
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.section-row {
+  display: flex;
+  margin: 0 -15px;
+}
+
+.section-col {
+  width: 50%;
+  padding: 0 15px;
+}
+
+.button {
+  padding: 12px 24px;
+  background: var(--main-color);
+  color: var(--white-color);
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.header {
+  background: var(--color-light);
+}
+
+.header__image {
+  position: absolute;
+  top: 25px;
+  right: -270px;
+}
+
+.header__top {
+  height: 525px;
+}
+
+.header__title {
+  position: relative;
+  z-index: 1;
+}
+
+.header__button {
+  margin-top: 40px;
 }
