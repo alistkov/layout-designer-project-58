@@ -47,10 +47,12 @@ p {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   line-height: 1.2em;
   font-family: Neucha, cursive;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 h1 {
@@ -63,6 +65,11 @@ h2 {
 
 h3 {
   font-size: 34px;
+}
+
+h4 {
+  font-size: 24px;
+  color: #908D8B;
 }
 
 .orange {
@@ -160,6 +167,7 @@ h3 {
   font-size: 52px;
   font-family: Neucha, cursive;
   line-height: 1.2;
+  color: var(--white-color);
 }
 
 .navigation-row {
@@ -191,4 +199,40 @@ h3 {
   font-size: 64px;
   line-height: 1;
   font-family: Neucha, cursive;
+}
+
+.cognitive-distortions-row {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.cognitive-distortions-img {
+  vertical-align: middle;
+  width: 578px;
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
+}
+
+.cognitive-distortions-content {
+  width: calc(100% - 578px);
+  padding-left: 30px;
+}
+
+.cognitive-distortions-content h2 {
+  margin-bottom: 30px;
+}
+
+.cognitive-distortions-text {
+  font-size: 34px;
+  font-family: Neucha, cursive;
+  line-height: 1.4;
+}
+
+.cognitive-distortions-subtitle {
+  color: var(--white-color);
+  background: var(--brown-color);
+  padding: 5px 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
