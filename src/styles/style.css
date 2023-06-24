@@ -236,3 +236,25 @@ h4 {
   font-weight: 700;
   margin-bottom: 20px;
 }
+
+.premature-optimization {
+  background: var(--brown-color);
+  color: var(--white-color);
+}
+
+.section-reverse {
+  flex-direction: row-reverse;
+}
+
+.section-reverse .cognitive-distortions-row {
+  flex-direction: row-reverse;
+}
+
+.section-reverse .cognitive-distortions-subtitle {
+  background: var(--white-color);
+  color: var(--brown-color);
+}
+
+.section-reverse h4 {
+  color: #D7CCC0;
+}
