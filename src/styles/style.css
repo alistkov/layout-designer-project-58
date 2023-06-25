@@ -255,6 +255,16 @@ h4 {
   color: var(--brown-color);
 }
 
+.section-reverse .cognitive-distortions-content {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
 .section-reverse h4 {
   color: #D7CCC0;
+}
+
+.hyperbolic-depreciation {
+  background: var(--brown-color);
+  color: var(--white-color);
 }
